@@ -2,8 +2,8 @@
 enum Menu {MAIN, FIRE, ACCESSIBILITY, SETTINGS, STAFF};
 enum Setting {POWER, LIGHT};
 
-Menu currentMenu = Menu.STAFF;
-Setting currentSetting = Setting.POWER;
+Menu currentMenu = Menu.MAIN;
+Setting currentSetting;
 
 StringBuffer inputPin;
 int tapCount = 0;
