@@ -1,5 +1,131 @@
-<script type="text/javascript" src="processing.js"></script>
-@pjs preload="icons/backspace.png","icons/bell.png","icons/call.png", "icons/cancel.png", "icons/cancel.png",
-"icons/close_door.png", "icons/enter.png", "icons/fire.png", "icons/light.png", "icons/open_door.png",
-"icons/power.png", "icons/return.png", "icons/settings.png", "icons/tap.png", "micross.ttf", "BrailleNormal-ILDX.ttf";
-<canvas data-processing-sources="p1.Adam.Rusaw.pde"></canvas>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>CSS Template</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+
+<body>
+	<header>
+		<h2>CS3366 Human Interaction Project 1</h2>
+		<h5>By: Adam Rusaw</h5>
+	</header>
+
+	<section>
+		<nav>
+			<ul>
+				<li><img src="https://i.imgur.com/ZPC4UZw.jpeg"></li>
+				<li><img src="https://imgur.com/rUyoEZD.gif"></li>
+				<li><img src="https://i.imgur.com/QnTdtIT.png"></li>
+				<li><img src="https://i.imgur.com/m2BdyUj.gif"></li>
+				<li><img src="https://i.imgur.com/K1gj5sh.png"></li>
+				<li><img src="https://i.imgur.com/CyEMphm.png"></li>
+				<li><img src="https://i.imgur.com/NZ7Gt3x.png"></li>
+				<li><img src="https://i.imgur.com/sZoYWge.png"></li>
+				<li><img src="https://i.imgur.com/BJkHp5t.png"></li>
+			</ul>
+		</nav>
+
+		<article>
+			<h1>Original Image</h1>
+			<h4>Pros:</h4>
+			<p>The design is very simple and easy to navigate</p>
+			<p>Star icon to represent lobby floor</p>
+			<p>Braille to assist visually impaired users</p>
+			<p>Interactive light to show which floor the user selects</p>
+			<p>Good spacing to help user understand button meanings</p>
+			<p>Labels are consistent on the left of the buttons</p>
+			<p>Physical buttons are much more reliable in case of emergency or power outage</p>
+			<h4>Cons:</h4>
+			<p>Bottom right has bad spacing, could be spread out more</p>
+			<p>Entire row of unused space, remove it?</p>
+			<p>Although the star is helpful, if you are unsure of the meaning there is not legend to assist</p>
+		</article>
+
+		<article>
+			<h1>Original GIF</h1>
+			<p>Displays the original elevator in use and how it iteracts when a button is pressed</p>
+		</article>
+
+		<article>
+			<h1>Drawing</h1>
+			<p>Main elevator display in the top right.</p>
+			<p>When a floor is selected the current floor will turn a different color</p>
+			<p>Every single page has a return button which will take you back to the main page</p>
+			<h4>Page options are:</h4>
+			<ol type="1">
+				<li>Main Page</li>
+				<li>Fire Options</li>
+				<li>Settings Menu</li>
+				<li>Staff Login</li>
+				<li>Accessibility Mode</li>
+			</ol>
+		</article>
+
+		<article>
+			<h1>Overview GIF</h1>
+			<p>Overview of all pages within the elevator interface</p>
+			<p>Each button has an interaction assigned to it</p>
+			<p>When you select a floor the teal highlight will be moved to show you are on that floor</p>
+			<p>Each page will be explained in detail</p>
+		</article>
+
+		<article>
+			<h1>Main Elevator Interface</h1>
+			<p>Each floor is a seperate button which will take you to that floor, so just press the floor you want to go
+				to</p>
+			<p>Selected floor is highlighted in teal</p>
+			<p>Each floor has a description with what is on that floor to the left of it</p>
+			<p>The top bar is full of different buttons which all serve a different purposes:</p>
+			<p>Close Door | Open Door | Current Floor Information | Settings | Emergency Services</p>
+			<p>At the bottom of the interface is a button with braille writing which says "Tap floor number on screen"
+			</p>
+		</article>
+
+		<article>
+			<h1>Emergency Services</h1>
+			<p>Call button to contact emergency services</p>
+			<p>Cancel button to cancel current call if it was an accident or no longer needed</p>
+			<p>Instructions are clear and concise for the user to follow in emergency</p>
+			<p>Press the fire button again to return to the main menu</p>
+		</article>
+
+		<article>
+			<h1>Settings</h1>
+			<p>Bell to ring the bell in the elevator to signal lobby staff</p>
+			<p>Power button which requires an employee code and will turn the elevator off</p>
+			<p>Light button which also requires an employee code and is used to manage the lighting inside the elevator
+			</p>
+			<p>Toggled settings will show green or red to display the current status</p>
+			<p>Press the settings button again to return to the main menu</p>
+		</article>
+
+		<article>
+			<h1>Staff Login</h1>
+			<p>Required to toggle the power and lighting option of the settings menu</p>
+			<p>Allows input of an 8 digit code and will check to see if the code matches correct employee code (1111 for
+				demonstration)</p>
+			<p>Backspace allows you to backup one space in case you enter the wrong code</p>
+			<p>If a correct code is inputted and the green enter button is pressed, it will return to the settings menu
+				and apply the selected setting</p>
+			<p>Press the settings button again to return to the main menu</p>
+		</article>
+
+		<article>
+			<h1>Tap (Accessibility Mode)</h1>
+			<p>When the button is pressed below the interface to toggle accessibility mode the entire interface becomes
+				a large button</p>
+			<p>Allows visual impaired users to tap the screen for the number of the floor they want to visit</p>
+			<p>For example, 1 tap will take them to the first floor, 2 taps will take them to the second floor, etc</p>
+			<p>You can press the button again below the screen to return to normal user mode</p>
+		</article>
+	</section>
+
+	<footer></footer>
+
+</body>
+
+</html>
